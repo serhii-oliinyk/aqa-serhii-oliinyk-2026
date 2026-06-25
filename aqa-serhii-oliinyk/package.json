@@ -1,0 +1,19 @@
+{
+  "name": "aqa-inforce-serhii-oliinyk",
+  "version": "1.0.0",
+  "description": "QA automation test task (Playwright)",
+  "main": "index.js",
+  "type": "module", 
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0"
+  }
+}
